@@ -79,8 +79,7 @@ export default {
 
   CLUSTERS_MANAGEMENT_DESC:
     '对多集群以及每个集群的基础资源、服务组件和应用资源等的统一管理',
-  ACCESS_CONTROL_DESC:
-    '对平台中的企业空间、账号、以及角色权限进行统一管理',
+  ACCESS_CONTROL_DESC: '对平台中的企业空间、账号、以及角色权限进行统一管理',
   APPS_MANAGEMENT_DESC:
     '对云原生应用的上架、下架以及审核等应用全生命周期的统一管理',
   PLATFORM_SETTINGS_DESC:
@@ -442,6 +441,8 @@ export default {
     'KubeSphere可以根据您设置的规则进行操作审计的收集，点击查看如何定义规则。',
   category: '类别',
   resources: '资源',
+  'Earliest start time': '最早发生时间',
+  'Most recent start time': '最近发生时间',
   'Related resources': '关联资源',
   'Operation details': '操作详情',
   'Event metadata': '事件元数据',
